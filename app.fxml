@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.function">
+   <children>
+      <CheckBox fx:id="c1" layoutX="113.0" layoutY="91.0" mnemonicParsing="false" onAction="#check" text="B.tech" />
+      <CheckBox fx:id="c2" layoutX="113.0" layoutY="135.0" mnemonicParsing="false" onAction="#check1" text="M.Tech" />
+      <CheckBox fx:id="c3" layoutX="113.0" layoutY="181.0" mnemonicParsing="false" onAction="#check2" text="Phd" />
+      <RadioButton fx:id="r1" layoutX="303.0" layoutY="91.0" mnemonicParsing="false" onAction="#check3" text="Full-Time" />
+      <RadioButton fx:id="r2" layoutX="303.0" layoutY="135.0" mnemonicParsing="false" onAction="#check4" text="Part-Time" />
+      <RadioButton fx:id="r3" layoutX="303.0" layoutY="181.0" mnemonicParsing="false" onAction="#check5" text="Distance" />
+   </children>
+</AnchorPane>
